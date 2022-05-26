@@ -26,6 +26,7 @@ RUN pip install jupyterlab
 ENV PATH="${CONTAINER_USER_WD}/.local/bin:${PATH}"
 
 # Install additional python packages
-RUN pip install -r /python_packages
+RUN pip install -U scikit-learn \
+    && pip install -r /python_packages
 
 CMD ["/bin/bash"]
