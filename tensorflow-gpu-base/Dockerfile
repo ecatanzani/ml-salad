@@ -1,5 +1,8 @@
 from tensorflow/tensorflow:latest-gpu
 
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Europe/Rome
+
 COPY packages packages
 COPY python_packages python_packages
 
