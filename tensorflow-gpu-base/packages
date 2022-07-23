@@ -2,3 +2,6 @@ git
 nano
 x11-apps
 python3-tk
+ffmpeg
+libsm6
+libxext6

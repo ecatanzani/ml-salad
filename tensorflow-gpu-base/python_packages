@@ -1,2 +1,8 @@
 pandas
 matplotlib
+tqdm
+streamlit
+st-clickable-images
+watchdog
+scikeras
+visualkeras
