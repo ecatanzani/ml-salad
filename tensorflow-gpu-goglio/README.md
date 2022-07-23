@@ -1,7 +1,8 @@
 # TensorFlow + GPU support
 
 Base container for TensorFlow with GPU support and jupyter-server installed
-This images includes OpenCV for image manipulations
+
+This image includes OpenCV for image manipulations
 
 ## Usage:
 
